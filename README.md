@@ -26,4 +26,7 @@ from pulser.devices import MockDevice
 from pulser_simulation import QutipEmulator, SimConfig
 import numpy as np
 import networkx as nx
+```
 
+## Authors 
+Hugo Mayer, Loïc Michalon, Noé Mathieu
