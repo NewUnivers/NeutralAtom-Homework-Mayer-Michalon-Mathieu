@@ -9,10 +9,11 @@ This Jupyter Notebook, **Neutral Atom Simulation**, demonstrates the use of Puls
 - Visualize and analyze quantum results.
 
 ## Features
-- **Quantum Registers**: Define spatial arrangements of neutral atoms.
-- **Custom Pulse Sequences**: Create and execute sequences with configurable pulses (amplitude, detuning).
-- **Simulation**: Run adiabatic simulations using the Pulser QutipEmulator to explore quantum dynamics.
-- **Graph-Based Quantum Problems**: Solve problems such as Maximum Independent Set (MIS) and graph coloring with a quantum approach.
+- physical_coords_to_atom_dict: Converts physical coordinates into scaled atomic positions for simulation.
+- dict_to_graph: Constructs a graph where nodes are qubits and edges represent interference based on a given radius.
+- define_sequence: Creates a quantum sequence with configurable pulses for simulation.
+- MIS_adiabatic_solving: Implements an adiabatic quantum algorithm to solve the Maximum Independent Set problem.
+- solve_graph_colouring: Solves the graph coloring problem using the MIS approach and assigns colors to nodes.
 
 ## Prerequisites
 
